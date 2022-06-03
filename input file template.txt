@@ -1,0 +1,25 @@
+INPUT FILE TEMPLATE
+Course: "ECE 20875"	
+Grading Scale:
+//keep in the format of letter : number, letter : number (all within the quotations)
+" A+ : 97, A:93, A-:90, B+:87, B:83, B-: 80, C+: 77, C:73, C-:70, D+:67, D:63, D-:60"	//grading scale- you can add as many letters as you want
+
+Number of Grading Categories: "3"		//must match the number of categories below: for example 3 categories: homeworks, exams, projects
+
+Category: "Homeworks"				//name of category, put within quotations
+category percent weighting: "40"		//the weighting of the category relative to other ones
+total number of assessments: "10"		//total number of assessments throughout the course
+max points each assessment: "100"		//maximum points allowed on each of the assessments
+Scores so far: "100, 90, 100, 100, 35, 100, 94, 100, 95"		//the scores you have earned so far, if not yet earned just leave it out
+
+Category: "Exams"
+category percent weighting: "50"
+total number of assessments: "3"
+max points each assessment: "100"
+Scores so far: "100, 91"
+
+Category: "Project"
+category percent weighting: "10"
+total number of assessments: "1"
+max points each assessment: "100" 
+Scores so far: ""
